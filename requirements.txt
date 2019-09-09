@@ -1,0 +1,2 @@
+omxplayer-wrapper
+python-osc
