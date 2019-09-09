@@ -12,5 +12,9 @@ apt install python3-pip
 # setup venv
 python3 -m venv fg-player
 
+source ./fg-player/bin/activate
+
 # install requirements
 pip install -r requirements.txt
+
+deactivate
