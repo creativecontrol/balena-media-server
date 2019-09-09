@@ -14,7 +14,7 @@ https://github.com/willprice/python-omxplayer-wrapper
 - python-osc
 https://pypi.org/project/python-osc/
 
-Is is intended to be used with OSC remote control via QLab but could be used
+This is intended to be used with OSC remote control via QLab but could be used
 by any OSC capable client. A test file for QLab is included.
 
 **The following OMXPlayer features have been implemented**
