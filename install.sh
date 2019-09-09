@@ -18,3 +18,13 @@ source ./fg-player/bin/activate
 pip install -r requirements.txt
 
 deactivate
+
+echo "I recommend sharing your control computer SSH key with all of the \
+Raspberry Pis on the network to make things easier"
+echo "ssh-copy-id pi@<rpi hostname>"
+echo ""
+
+echo "please edit the /boot/cmdline.txt by adding consoleblank=10"
+echo "this will ensure the console is black if the video is stopped"
+echo "you'll need to reboot afterwards"
+echo "sudo nano /boot/cmdline.txt"
